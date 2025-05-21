@@ -99,7 +99,151 @@
 //     println!("{}", slice); // Super
 // }
 
+// if, else if, else
 
+// fn main() {
+//     let age = 18;
+//     if age < 18 {
+//         println!("You are a minor");
+//     } else if age == 18 {
+//         println!("Just became an adult!");
+//     } else {
+//         println!("You're an adult");
+//     }
+// }
+
+// if as an expression
+// fn main() {
+//     let age = 17;
+//     let status = if age >= 18 {"Adult"} else {"Minor"};
+//     println!("Your are {}" , status);
+// }
+
+    // SWITCH CASE
+// match (like switch in other languages) -> Rust doesn’t have switch, but has a more powerful version called match.
+
+// fn main() {
+//     let number = 3;
+//     match number {
+//         1 => println!("One"),
+//         2 => println!("Two"),
+//         3 => println!("Three"),
+//         _ => println!("Other"), // _ is the default case
+//     }
+// }
+
+// Check if a number is positive, negative or zero.
+
+// fn main() {
+//     let n = 5;
+//     if n > 0 {
+//         println!("Positive");
+//     } else if n < 0 {
+//         println!("Negative");
+//     } else {
+//         println!("Zero");
+//     }
+// }
+
+
+// Use if as an expression to assign grade.
+
+// fn main() {
+//     let marks = 85;
+
+//     let grade = if marks >= 90 {
+//         "A"
+//     } else if marks >= 75 {
+//         "B"
+//     } else if marks >= 60 {
+//         "C"
+//     } else {
+//         "D"
+//     };
+//     println!("Grade: {}", grade);
+// }
+
+// Use match to check days
+
+// fn main() {
+//     let day = 5;
+//     match day {
+//         1 => println!("Monday"),
+//         2 => println!("Tuesday"),
+//         3 => println!("Wednesday"),
+//         4 => println!("Thursday"),
+//         5 => println!("Friday"),
+//         6 => println!("Saturday"),
+//         7 => println!("Sunday"),
+//         _ => println!("Invalid day"),
+//     }
+// }
+
+
+// ------------>> LOOPS <<------------
+
+// Infinite loop (until you break)
+// fn main() {
+//     let mut count = 0;
+//     loop {
+//         count += 1;
+//         println!("Count is: {}", count);
+
+//         if count == 5 {
+//             break;  // exit loop
+//         }
+//     }
+// }
+
+
+// while loop — runs while condition is true
+// fn main() {
+//     let mut num = 3;
+//     while num > 0
+//  {
+//     println!("{}!", num);
+//     num -= 1;
+//     }   
+//  }
+
+// for loop — iterate over collections or ranges
+// fn main(){
+//     for i in 1..5 {
+//         println!("Iteration: {}", i);
+//     }
+// }
+
+// Print numbers 1 to 10 using for
+// fn main(){
+//     for i in 1..10 {
+//         println!("Number: {}", i);
+//     }
+// }
+
+// Sum of numbers 1 to 5 using while
+// fn main() {
+//     let mut sum = 0;
+//     let mut i = 1;
+//     while i <=5 {
+//         sum += i;
+//         i += 1;
+//     }
+//     println!("Sum of numbers from 1 to 5 is: {}", sum);
+// }
+
+// Use loop to print first 3 even number
+// fn main() {
+//     let mut count = 0;
+//     let mut num = 2;
+//     loop {
+//         if count == 3{
+//             break;
+//         }
+//         println!("Even number: {}", num);
+//         num += 2;
+//         count += 1;
+//     }
+// }
 
 
 
