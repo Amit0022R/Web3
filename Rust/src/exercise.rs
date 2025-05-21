@@ -246,6 +246,76 @@
 // }
 
 
+// --------->> Functions in Rust <<----------
+
+// Defining and calling functions
+// fn greet() {
+//     println!("Hello, world!");
+// }
+// fn main() {
+//     greet();  // call the function
+// }
+
+// Functions with parameters
+// fn greet(name: &str){
+//     println!("Hello, {}!", name);
+    // &str is a string slice, a reference to a string.
+     // in Rust, writing name: &str is necessary when you're defining function parameters.
+// } 
+
+// fn main() {
+//     greet("Amit"); // Call the function with an argument
+// }
+
+
+// Functions with return values
+// fn add(a: i32, b: i32) -> i32 {
+//     return a + b;
+// }
+// fn main() {
+//     let result = add(5, 3);
+//     println!("Sum: {}", result);
+// }
+
+// Function without explicit return
+// fn print_sum(a: i32, b: i32) {
+//     println!("Sum is {}", a + b);
+// }
+// fn main() {
+//     print_sum(5, 3); // Example call
+// }
+
+//  Create a function that prints your name
+// fn print_name() {
+//     println!("My name is Amit");
+// }
+
+// fn main() {
+//     print_name();
+// }
+
+// Create a function that takes two numbers and returns their product
+// fn multiply(x: i32, y: i32) -> i32 {
+//     x * y
+// }
+// fn main() {
+//     let prod = multiply(6, 7);
+//     println!("Product: {}", prod);
+// }
+
+
+// Function to check if a number is even (returns bool)
+// fn is_even(num: i32) -> bool {
+//     num % 2 == 0
+// }
+// fn main() {
+//     let number = 8;
+//     if is_even(number) {
+//         println!("{} is even", number);
+//     } else {
+//         println!("{} is odd", number);
+//     }
+// }
 
 
 
