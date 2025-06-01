@@ -1,0 +1,6 @@
+# this file is used to ignore files and directories from being formatted by Prettier
+
+.env
+/node_modules
+/.vscode
+./dist
