@@ -1,0 +1,14 @@
+# Ignore target directory (build output)
+target/
+
+# Ignore Cargo.lock for libraries, but keep for binaries
+# (You can remove this line if you want to always track Cargo.lock)
+# Cargo.lock
+
+# Ignore editor and OS files
+**/*.rs.bk
+*.swp
+*.swo
+*.DS_Store
+.idea/
+.vscode/
