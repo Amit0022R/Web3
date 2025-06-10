@@ -9,13 +9,11 @@
 //     println!("You are {} years old.", age);
 // }
 
-
 // fn main() {
 //     let mut age = 17;
 //     age = 19;
 //     println!("Your age is: {}", age-1);
 // }
-
 
 fn main() {
     let a = true;
