@@ -15,11 +15,35 @@
 //     println!("Your age is: {}", age-1);
 // }
 
-fn main() {
-    let a = true;
+// fn main() {
+//     let a = true;
 
-    match a {
-        true => println!("It's true!"),
-        false => println!("It's false!"),
-    }
+//     match a {
+//         true => println!("It's true!"),
+//         false => println!("It's false!"),
+//     }
+// }
+
+
+// fn is keyword so cannot use it as a variable name
+// fn main() {
+//     let mut  age = 32;
+//     println!("You are {} years old.", age);
+//     age = 33; // This line will cause a compilation error because `age` is immutable by default.
+//     println!("You are now {} years old.", age);
+// }
+
+fn main() {
+    let mut  age = 32;
+    println!("You are {} years old.", age);
+    age = 33; // This line will cause a compilation error because `age` is immutable by default.
+    println!("You are now {} years old.", age);
+    let age = 34; // This line will not cause an error because we are shadowing the variable
+    println!("You are now {} years old.", age);
+
+    
 }
+
+
+
+
