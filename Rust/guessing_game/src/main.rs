@@ -32,7 +32,6 @@ fn main() {
 
     loop {
         println!("Please input your guess.");
-
         let mut guess = String::new(); // create a new string to hold the input
 
         // guess.push_str("AMit Ranga");
