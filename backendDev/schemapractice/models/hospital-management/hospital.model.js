@@ -38,6 +38,10 @@ const hospitalSchema = new mongoose.Schema({
         required: true,
         min: 1,
     },
+    emergencyServices: {
+        type: Boolean,
+        default: false,
+    },
 }, { timestamps: true });
 
 export const Hospital = mongoose.model("Hospital", hospitalSchema);
