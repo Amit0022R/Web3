@@ -1,1 +1,8 @@
 crucial limitation need to aware of when working with metadata it will not work in pages that are marked with use cleint directive
+
+
+error:
+attempt to export "metadata" from component marked with "use client" which is disallowed
+
+solution:
+keep your metadata  in server components and extract any cleint side functionality into seperate components
