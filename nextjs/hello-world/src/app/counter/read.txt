@@ -1,0 +1,1 @@
+crucial limitation need to aware of when working with metadata it will not work in pages that are marked with use cleint directive
