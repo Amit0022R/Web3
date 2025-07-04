@@ -10,7 +10,16 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <header style={{backgroundColor: "lightblue", padding: "1rem"}} >
+          <p>Header</p>
+        </header>
+        {children} 
+        {/* children prop get replaces by component defined in page.tsx */}
+        <footer style={{backgroundColor: "grey", padding: "1rem"}} >
+          <p>Footer</p>
+          </footer>
+      </body>
     </html>
   )
 }
